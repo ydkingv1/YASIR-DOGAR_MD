@@ -324,7 +324,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         return status
     }
 	
-    XeonBotInc.public = true
+    XeonBotInc.public = false 
 
     XeonBotInc.serializeM = (m) => smsg(XeonBotInc, m, store)
 
